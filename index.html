@@ -1,84 +1,12 @@
-import { Card, CardContent } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import { Mail, FileText, ArrowRight } from "lucide-react";
-
-export default function PortfolioPage() {
-  return (
-    <div className="min-h-screen bg-white p-8 font-sans text-gray-800">
-      <div className="max-w-4xl mx-auto grid gap-8">
-        {/* Encabezado */}
-        <header className="text-center space-y-2">
-          <h1 className="text-4xl font-bold">Karina León</h1>
-          <p className="text-lg text-gray-600">
-            Consultora en Automatización, IA Aplicada y Gestión de Proyectos Tecnológicos
-          </p>
-        </header>
-
-        {/* Resumen Profesional */}
-        <section className="grid gap-4">
-          <h2 className="text-2xl font-semibold">Resumen Profesional</h2>
-          <p>
-            Profesional con más de 20 años de experiencia liderando proyectos tecnológicos en sectores público y privado. Especialista en automatización con Python y Google Apps Script, integración de IA generativa (NLP, generación de prompts), y transformación digital. Domino metodologías ágiles, híbridas y tradicionales para conectar la estrategia con soluciones prácticas, eficientes y centradas en las personas.
-          </p>
-        </section>
-
-        {/* Servicios */}
-        <section className="grid gap-4">
-          <h2 className="text-2xl font-semibold">Servicios que Ofrezco</h2>
-          <ul className="list-disc list-inside space-y-1">
-            <li>Automatización de tareas con Python y Google Apps Script</li>
-            <li>Generación automática de documentos, reportes y mensajes personalizados</li>
-            <li>Visualización de datos con Excel, Google Sheets y conocimientos en Power BI</li>
-            <li>Diseño de flujos eficientes con metodologías ágiles (Scrum, híbrido)</li>
-            <li>Consultoría para transformación digital e integración de IA</li>
-          </ul>
-        </section>
-
-        {/* Proyectos */}
-        <section className="grid gap-4">
-          <h2 className="text-2xl font-semibold">Proyectos Destacados</h2>
-
-          <Card>
-            <CardContent className="p-4 space-y-2">
-              <h3 className="text-xl font-bold">Automatización de Fichas Inmobiliarias</h3>
-              <p>
-                Automatización de la generación de fichas inmobiliarias a partir de PDFs. Extracción de datos clave, imágenes y generación de documentos Word estilizados de forma automática. El flujo permite rapidez, orden y personalización en cada ficha, optimizando la publicación en sitios donde los CRM no tienen alcance.
-              </p>
-            </CardContent>
-          </Card>
-
-          <Card>
-            <CardContent className="p-4 space-y-2">
-              <h3 className="text-xl font-bold">Sistema SABER</h3>
-              <p>
-                Implementación del sistema SABER, beneficiando a más de 10,000 usuarios. Se redujeron los costos operativos en un 80% y los tiempos humanos de ejecución bajaron de 2 meses a 3 semanas.
-              </p>
-            </CardContent>
-          </Card>
-        </section>
-
-        {/* Contacto */}
-        <section className="grid gap-4">
-          <h2 className="text-2xl font-semibold">Contacto</h2>
-          <div className="flex flex-col sm:flex-row sm:items-center gap-4">
-            <Button variant="outline" asChild>
-              <a href="mailto:karina@email.com">
-                <Mail className="mr-2 h-4 w-4" /> karina@email.com
-              </a>
-            </Button>
-            <Button variant="outline" asChild>
-              <a href="/Karina_Leon_CV.pdf" target="_blank">
-                <FileText className="mr-2 h-4 w-4" /> Ver CV
-              </a>
-            </Button>
-          </div>
-        </section>
-
-        {/* Footer */}
-        <footer className="text-center text-sm text-gray-400 pt-8">
-          &copy; {new Date().getFullYear()} Karina León. Todos los derechos reservados.
-        </footer>
-      </div>
-    </div>
-  );
-}
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio Karina León</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

@@ -1,8 +1,29 @@
 {
+  "name": "landing_inmobiliario",
+  "version": "1.0.0",
+  "description": "Landing inmobiliaria con React y Vite",
+  "main": "src/main.jsx",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kleonb/landing_inmobiliario"
+  },
+  "keywords": [],
+  "author": "Karina León",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kleonb/landing_inmobiliario/issues"
+  },
+  "homepage": "https://github.com/kleonb/landing_inmobiliario#readme",
+  "dependencies": {
+    "@vitejs/plugin-react": "^4.7.0",
+    "lucide-react": "^0.372.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
   },
   "devDependencies": {
     "vite": "^7.0.6"
