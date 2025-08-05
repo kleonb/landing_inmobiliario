@@ -1,3 +1,5 @@
+import Projects from "./components/Projects";
+
 function App() {
   return (
     <div style={{ fontFamily: 'sans-serif', padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
@@ -33,8 +35,10 @@ function App() {
         </ul>
       </section>
 
+      <Projects />
+
       <footer style={{ textAlign: 'center', marginTop: '3rem', color: '#999' }}>
-        <p>© 2025 Karina León – veraltoinmobiliaria.com</p>
+        <p>© 2025 Karina León – karinaleon@gmail.com</p>
       </footer>
     </div>
   );
