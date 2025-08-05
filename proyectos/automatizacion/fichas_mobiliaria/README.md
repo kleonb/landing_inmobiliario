@@ -10,9 +10,15 @@
 
 ---
 
-## 📸 Diagrama del proceso
+## 🔄 Proceso
 
-👉 [Flujo de procesamiento de fichas inmobiliarias](./Proceso_fig.png)
+A continuación se muestra el flujo completo del sistema, desde la entrada del PDF hasta la salida organizada en carpetas:
+
+![Flujo de procesamiento de fichas inmobiliarias](./Proceso_fig.png)
+
+Puedes revisar también un ejemplo del script que ejecuta este flujo:
+
+📄 [Ver script de ejemplo (generar_fichas.py)](./generar_fichas.py)
 
 ---
 
