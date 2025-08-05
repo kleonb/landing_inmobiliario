@@ -10,9 +10,9 @@
 
 ---
 
-## 📸 Ejemplos visuales
+## 📸 Diagrama del proceso
 
-👉 _[Aquí puedes agregar capturas de una ficha antes y después, o una galería]_
+👉 proyectos/automatizacion/ficha_inmobiliaria/Proceso_fig.png
 
 ---
 
