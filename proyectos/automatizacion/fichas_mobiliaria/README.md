@@ -12,7 +12,7 @@
 
 ## 📸 Diagrama del proceso
 
-👉 proyectos/automatizacion/ficha_inmobiliaria/Proceso_fig.png
+👉 [Flujo de procesamiento de fichas inmobiliarias](./Proceso_fig.png)
 
 ---
 
